@@ -27,7 +27,7 @@ public class TestTimeActivity extends Activity {
      * 初始化对话框
      */
     private void initDialog() {
-         dialog = new Dialog(this);
+        dialog = new Dialog(this);
         dialog.setContentView(R.layout.activity_test_time);
         dialog.setTitle("选择日期");
         init(dialog);
