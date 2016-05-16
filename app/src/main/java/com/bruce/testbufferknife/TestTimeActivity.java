@@ -23,6 +23,9 @@ public class TestTimeActivity extends Activity {
         initDialog();
     }
 
+    /**
+     * 初始化对话框
+     */
     private void initDialog() {
          dialog = new Dialog(this);
         dialog.setContentView(R.layout.activity_test_time);
