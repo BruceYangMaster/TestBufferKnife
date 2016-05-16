@@ -21,7 +21,6 @@ public class TestTimeActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initDialog();
-
     }
 
     private void initDialog() {
